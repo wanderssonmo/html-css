@@ -16,18 +16,24 @@
             border: 1px solid black;
             padding: 10px;
         }
+
+        .destaque {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <tr>
+            <tr class="destaque">
                 <th rowspan="2" scope="col">Área</th>
                 <th rowspan="2">Diciplina</th>
                 <th colspan="2">Notas</th>
                 <th rowspan="2" scope="col">Média</th>
             </tr>
-            <tr>
+            <tr class="destaque">
                 <th>Nota 1</th>
                 <th>Nota2</th>
             </tr>
@@ -56,6 +62,27 @@
                 <td>Biologia</td>
                 <td>0.0</td>
                 <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4">Média das Exatas</th>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="row">Humanas</th>
+                <td>História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="destaque">
+                <th colspan="4">Média de Humanas</th>
                 <td>0.0</td>
             </tr>
         </tbody>

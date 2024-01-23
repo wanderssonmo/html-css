@@ -17,19 +17,31 @@
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="MG">Minas Gerais</option>
                 </optgroup>
-
                 <optgroup label="Região Nordeste">
                     <option value="MA">Maranhão</option>
                     <option value="RN">Rio Grande do Norte</option>
                     <option value="PE">Pernambuco</option>
                 </optgroup>
-
             </select>
         </p>
-
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lisprof">
+             <datalist id="lisprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Desenvolvedor</option>
+                <option>Professor</option>
+             </datalist>
+        </p>
+        <p>
+            <label for="img">Mensagem</label> <br>
+            <textarea name="img" id="idimg" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
     </form>
-
-    <input type="submit" value="Enviar">
-    <input type="reset" value="Limpar">
 </body>
 </html>

@@ -18,11 +18,29 @@
             text-align: center;
             flex: auto;
         }
+
+        div img{
+            width: 100%;
+        }
+
+        div.conteinerImagem{
+            display: flex;
+        }
+
+        div.imagem{
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
     <h1>Estudando direção dos eixos</h1>
-    <img src="imagens/eixos.png" alt="">
+
+    <div class="conteinerImagem">
+        <div class="imagem"><img src="imagens/eixos.png" alt=""></div>
+        <div class="imagem"><img src="imagens/eixos.png" alt=""></div>
+        <div class="imagem"><img src="imagens/eixos.png" alt=""></div>
+    </div>
+
     <div class="conteiner">
         <div class="item">Exemplo de bloco A</div>
         <div class="item">Exemplo de bloco B</div>
